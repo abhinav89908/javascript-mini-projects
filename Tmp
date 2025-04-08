@@ -1,1 +1,30 @@
 https://chatgpt.com/c/67f4ced4-44b4-8011-a4e2-8d396ba62f9b
+ChatGPT
+
+You said:
+Can you help me build the design of admin cli tool for my team?
+The target for building the tool according to my manager: "just making sure we agree on design before you make changes so that we can reduce iterations
+
+sure but before you start lets please agree on a spec in the group chat
+
+one command at a time works too
+
+we dont have to spec everything out Hey Nihal, what do we mean by spec exactly?
+
+what will the command look like
+
+example
+
+admin clear_data --tables --start --end [--condition] admin fill_ data -- what inputs/config to be supplied admin backfill
+
+etc
+
+there are lot of combinations on the commands we want to support and the options/config for each command
+
+if we can arteculate that then building it out becomes really quick instead of building something and then making changes to fit the spec
+
+since most of the code is pretty much ready in some shape or form
+
+Also, they want that admin commands are independs and can be used by other admin command, so that the task will be generic and easy
+
+So, if you get some context, then can you help me how can i proceed to buil tof the tool, i mean what could be the design
